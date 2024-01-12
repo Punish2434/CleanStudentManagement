@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{D8F8A841-921A-4FDC-8B29-D121C3BE4CB6}|http">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CleanStudentManagement.Models/Class1.cs">
+    <Files>
+      <File FileName="CleanStudentManagement.BLL/Class1.cs" Line="1" Column="1" />
+      <File FileName="CleanStudentManagement.Data/Class1.cs" Line="1" Column="1" />
+      <File FileName="CleanStudentManagement.Models/Class1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CleanStudentManagement" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CleanStudentManagement.Data FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CleanStudentManagement.Models FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.CleanStudentManagement.UI PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CleanStudentManagement.BLL FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
