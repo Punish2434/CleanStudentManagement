@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "uYlmVEGY6ec+VeTXOgBLmjqz2pD0vPDbpkP5F5IEladVDyuPEj6XXjwkQ9Ha9csaQ/mm7Tovy3O84DFDcV29OA==",
+  "dgSpecHash": "CLpvqqAW8h7Uvy05aFvSQc9263UaN6fkh6xuGFPqdulmoewJt2npWJI/cF2+VwohwkMWmRnj3ra3o3cR1zWsmA==",
   "success": true,
   "projectFilePath": "/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.BLL/CleanStudentManagement.BLL.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/punishpratap/.nuget/packages/microsoft.entityframeworkcore/7.0.0/microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.0/microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.0/microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

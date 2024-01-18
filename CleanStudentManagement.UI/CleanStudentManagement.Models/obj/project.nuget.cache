@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "yh19uBQFl7kU7U2tBIGXokFlilUXFQaWoQuzAPYilOcRcAlxDQ4NDu/GXvhI9ol8euysJBE6wDzyYVw0lQI0qw==",
+  "dgSpecHash": "PYrThDYSOyaFmJwSXaWIGPXL1DxmLSMUNXQba0ia3q7IpL80w/Op0NLBZsbH7wPJ872oUXHa66jr8I2hWnR1Bw==",
   "success": true,
   "projectFilePath": "/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/CleanStudentManagement.Models.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/punishpratap/.nuget/packages/microsoft.entityframeworkcore/7.0.0/microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.0/microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.0/microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/Users/punishpratap/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

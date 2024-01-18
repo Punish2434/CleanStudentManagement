@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CleanStudentManagement.Models\CleanStudentManagement.Models.csproj" />
+    <ProjectReference Include="..\CleanStudentManagement.Data\CleanStudentManagement.Data.csproj" />
+  </ItemGroup>
 </Project>

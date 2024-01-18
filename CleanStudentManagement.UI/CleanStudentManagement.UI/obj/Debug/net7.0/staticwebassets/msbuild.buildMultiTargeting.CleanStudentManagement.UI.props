@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/CleanStudentManagement.UI.props" />
+</Project>

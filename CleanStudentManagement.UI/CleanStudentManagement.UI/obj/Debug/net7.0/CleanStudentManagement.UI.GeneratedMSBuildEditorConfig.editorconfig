@@ -16,30 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/Views/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudHMvTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+[/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/Views/Students/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudHMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+[/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlcnMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-txkqc68vzq

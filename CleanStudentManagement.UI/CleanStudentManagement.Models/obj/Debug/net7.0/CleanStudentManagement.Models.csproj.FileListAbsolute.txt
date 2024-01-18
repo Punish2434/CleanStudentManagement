@@ -1,0 +1,15 @@
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/bin/Debug/net7.0/CleanStudentManagement.Models.deps.json
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/bin/Debug/net7.0/CleanStudentManagement.Models.dll
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/bin/Debug/net7.0/CleanStudentManagement.Models.pdb
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/bin/Debug/net7.0/CleanStudentManagement.Data.dll
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/bin/Debug/net7.0/CleanStudentManagement.Data.pdb
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/obj/Debug/net7.0/CleanStudentManagement.Models.csproj.AssemblyReference.cache
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/obj/Debug/net7.0/CleanStudentManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/obj/Debug/net7.0/CleanStudentManagement.Models.AssemblyInfoInputs.cache
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/obj/Debug/net7.0/CleanStudentManagement.Models.AssemblyInfo.cs
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/obj/Debug/net7.0/CleanStudentManagement.Models.csproj.CoreCompileInputs.cache
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/obj/Debug/net7.0/CleanStudentManagement.Models.csproj.CopyComplete
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/obj/Debug/net7.0/CleanStudentManagement.Models.dll
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/obj/Debug/net7.0/refint/CleanStudentManagement.Models.dll
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/obj/Debug/net7.0/CleanStudentManagement.Models.pdb
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.Models/obj/Debug/net7.0/ref/CleanStudentManagement.Models.dll

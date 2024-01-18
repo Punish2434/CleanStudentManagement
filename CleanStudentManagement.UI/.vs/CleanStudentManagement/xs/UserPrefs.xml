@@ -1,26 +1,73 @@
 ﻿<Properties StartupConfiguration="{D8F8A841-921A-4FDC-8B29-D121C3BE4CB6}|http">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CleanStudentManagement.Models/Class1.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.CleanStudentManagement.UI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CleanStudentManagement.UI/Program.cs">
     <Files>
-      <File FileName="CleanStudentManagement.BLL/Class1.cs" Line="1" Column="1" />
-      <File FileName="CleanStudentManagement.Data/Class1.cs" Line="1" Column="1" />
-      <File FileName="CleanStudentManagement.Models/Class1.cs" Line="1" Column="1" />
+      <File FileName="CleanStudentManagement.Data/Entities/Users.cs" />
+      <File FileName="CleanStudentManagement.Data/Repository/IGenericRepository.cs" Line="8" Column="24" />
+      <File FileName="CleanStudentManagement.Data/Repository/GenericRepository.cs" Line="1" Column="1" />
+      <File FileName="CleanStudentManagement.Data/ApplicationDbContext.cs" Line="23" Column="33" />
+      <File FileName="CleanStudentManagement.Data/UnitOfWork/IUnitOfWork.cs" />
+      <File FileName="CleanStudentManagement.Data/UnitOfWork/UnitOfWork.cs" />
+      <File FileName="CleanStudentManagement.Models/LoginViewModel.cs" />
+      <File FileName="CleanStudentManagement.UI/Program.cs" Line="66" Column="1" />
+      <File FileName="CleanStudentManagement.UI/appsettings.json" />
+      <File FileName="CleanStudentManagement.UI/Controllers/AccountsController.cs" Line="47" Column="90" />
+      <File FileName="CleanStudentManagement.UI/Views/Accounts/Login.cshtml" />
+      <File FileName="CleanStudentManagement.UI/Properties/launchSettings.json" />
+      <File FileName="CleanStudentManagement.Models/EnumRoles.cs" />
+      <File FileName="CleanStudentManagement.BLL/Services/IAccountService.cs" Line="15" Column="1" />
+      <File FileName="CleanStudentManagement.BLL/Services/AccountService.cs" Line="106" Column="1" />
+      <File FileName="CleanStudentManagement.UI/Controllers/UsersController.cs" Line="28" Column="18" />
+      <File FileName="CleanStudentManagement.UI/Controllers/ExamsController.cs" />
+      <File FileName="CleanStudentManagement.UI/Controllers/StudentsController.cs" Line="42" Column="16" />
+      <File FileName="CleanStudentManagement.Models/UserViewModel.cs" />
+      <File FileName="CleanStudentManagement.Models/PagedResult.cs" Line="11" Column="20" />
+      <File FileName="CleanStudentManagement.Models/TeacherViewModel.cs" Line="26" Column="2" />
+      <File FileName="CleanStudentManagement.Data/Entities/Groups.cs" Line="15" Column="1" />
+      <File FileName="CleanStudentManagement.BLL/Services/IGroupService.cs" Line="8" Column="37" />
+      <File FileName="CleanStudentManagement.BLL/Services/GroupService.cs" Line="76" Column="27" />
+      <File FileName="CleanStudentManagement.Models/GroupViewModel.cs" Line="17" Column="44" />
+      <File FileName="CleanStudentManagement.UI/Controllers/GroupsController.cs" Line="62" Column="42" />
+      <File FileName="CleanStudentManagement.Data/Entities/Student.cs" Line="20" Column="1" />
+      <File FileName="CleanStudentManagement.Models/CreateStudentViewModel.cs" Line="23" Column="1" />
+      <File FileName="CleanStudentManagement.BLL/Services/IStudentService.cs" Line="13" Column="33" />
+      <File FileName="CleanStudentManagement.BLL/Services/StudentService.cs" Line="180" Column="10" />
+      <File FileName="CleanStudentManagement.Models/StudentViewModel.cs" Line="30" Column="1" />
+      <File FileName="CleanStudentManagement.UI/Views/Students/Create.cshtml" Line="44" Column="1" />
+      <File FileName="CleanStudentManagement.Models/GroupStudentViewModel.cs" Line="13" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CleanStudentManagement" expanded="True" selected="True" />
+          <Node name="CleanStudentManagement" expanded="True">
+            <Node name="CleanStudentManagement.BLL">
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="CleanStudentManagement.Data">
+              <Node name="Entities" expanded="True" />
+              <Node name="Repository" expanded="True" />
+              <Node name="UnitOfWork" expanded="True" />
+            </Node>
+            <Node name="CleanStudentManagement.UI">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Users" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CleanStudentManagement.Data FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CleanStudentManagement.Models FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.CleanStudentManagement.UI PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.CleanStudentManagement.BLL FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
