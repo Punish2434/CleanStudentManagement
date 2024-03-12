@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CleanStudentManagement.BLL.Services;
+using CleanStudentManagement.Data;
 using CleanStudentManagement.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,11 +15,13 @@ namespace CleanStudentManagement.UI.Controllers
     {
         private IGroupService _groupService;
         private IStudentService _studentService;
+        private readonly ApplicationDbContext _context;
 
-        public GroupsController(IGroupService groupService, IStudentService studentService)
+        public GroupsController(IGroupService groupService, IStudentService studentService, ApplicationDbContext context)
         {
             _groupService = groupService;
             _studentService = studentService;
+            _context = context;
         }
 
         public IActionResult Index(int pageNumber = 1, int pageSize = 10)
@@ -49,7 +52,8 @@ namespace CleanStudentManagement.UI.Controllers
                 {
                     Id = student.Id,
                     Name = student.Name,
-                    IsChecked = false
+                    IsChecked = student.GroupsId == null? false: true
+
                 });
             }
             return View(vm);

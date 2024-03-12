@@ -16,4 +16,8 @@
     <ProjectReference Include="..\CleanStudentManagement.Models\CleanStudentManagement.Models.csproj" />
     <ProjectReference Include="..\CleanStudentManagement.Data\CleanStudentManagement.Data.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+  </ItemGroup>
 </Project>

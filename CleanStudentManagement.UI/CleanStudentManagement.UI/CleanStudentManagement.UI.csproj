@@ -14,6 +14,11 @@
     <None Remove="Views\Accounts\" />
     <None Remove="Views\Users\" />
     <None Remove="Views\Students\" />
+    <None Remove="Views\Exams\" />
+    <None Remove="Views\QnAs\" />
+    <None Remove="Views\Group\" />
+    <None Remove="Views\Shared\" />
+    <None Remove="Filters\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -22,15 +27,21 @@
     <Folder Include="Views\Accounts\" />
     <Folder Include="Views\Users\" />
     <Folder Include="Views\Students\" />
+    <Folder Include="Views\Exams\" />
+    <Folder Include="Views\QnAs\" />
+    <Folder Include="Views\Group\" />
+    <Folder Include="Views\Shared\" />
+    <Folder Include="Filters\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.11" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.12">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.13" />
+    <PackageReference Include="cloudscribe.Web.Pagination" Version="6.0.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CleanStudentManagement.BLL\CleanStudentManagement.BLL.csproj">

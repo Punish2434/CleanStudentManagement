@@ -49,66 +49,66 @@ namespace CleanStudentManagement.BLL.Services
 
         }
 
-        //public IEnumerable<ResultViewModel> GetExamResults(int studentId)
-        //{
-        //    try
-        //    {
-        //        var examResults = _unitOfWork.GenericRepository<ExamResults>().GetAll().Where(x => x.StudentId == studentId);
-        //        var students = _unitOfWork.GenericRepository<Student>().GetAll();
-        //        var exams = _unitOfWork.GenericRepository<Exams>().GetAll();
-        //        var qnas = _unitOfWork.GenericRepository<QnAs>().GetAll();
+        public IEnumerable<ResultViewModel> GetExamResults(int studentId)
+        {
+            try
+            {
+                var examResults = _unitOfWork.GenericRepository<ExamResults>().GetAll().Where(x => x.StudentId == studentId);
+                var students = _unitOfWork.GenericRepository<Student>().GetAll();
+                var exams = _unitOfWork.GenericRepository<Exams>().GetAll();
+                var qnas = _unitOfWork.GenericRepository<QnAs>().GetAll();
 
-        //        var requiredData = examResults.Join(students, er => er.StudentId, s => s.Id, (er, st) => new { er, st })
-        //            .Join(exams, erj => erj.er.ExamId, ex => ex.Id, (erj, ex) => new { erj, ex })
-        //            .Join(qnas, exj => exj.erj.er.QnAsId, q => q.Id, (exj, q) =>
-        //            new ResultViewModel()
-        //            {
-        //                StudentId = studentId,
-        //                ExamName = exj.ex.Title,
-        //                TotalQuestion = examResults.Count(a => a.StudentId == studentId && a.ExamId == exj.ex.Id),
-        //                CorrectAnswer = examResults.Count(a => a.StudentId == studentId && a.ExamId == exj.ex.Id
-        //                 && a.Answer == q.Answer),
-        //                WrongAnswer = examResults.Count(a => a.StudentId == studentId && a.ExamId == exj.ex.Id
-        //                 && a.Answer != q.Answer)
-        //            });
-        //        return requiredData;
-
-
-        //    }
-        //    catch (Exception)
-        //    {
-
-        //        throw;
-        //    }
-
-        //}
-
-        //public bool SetExamResult(AttendExamViewModel viewModel)
-        //{
-        //    try
-        //    {
-        //        foreach (var item in viewModel.QnAsList)
-        //        {
-        //            ExamResults result = new ExamResults();
-        //            result.StudentId = viewModel.StudentId;
-        //            result.ExamId = item.ExamsId;
-        //            result.QnAsId = item.Id;
-        //            result.Answer = item.SelectedAnswer;
-        //            _unitOfWork.GenericRepository<ExamResults>().Add(result);
-        //            _unitOfWork.Save();
-        //            return true;
-
-        //        }
-        //    }
-        //    catch (Exception)
-        //    {
-
-        //        throw;
-        //    }
-        //    return false;
+                var requiredData = examResults.Join(students, er => er.StudentId, s => s.Id, (er, st) => new { er, st })
+                    .Join(exams, erj => erj.er.ExamId, ex => ex.Id, (erj, ex) => new { erj, ex })
+                    .Join(qnas, exj => exj.erj.er.QnAsId, q => q.Id, (exj, q) =>
+                    new ResultViewModel()
+                    {
+                        StudentId = studentId,
+                        ExamName = exj.ex.Title,
+                        TotalQuestion = examResults.Count(a => a.StudentId == studentId && a.ExamId == exj.ex.Id),
+                        CorrectAnswer = examResults.Count(a => a.StudentId == studentId && a.ExamId == exj.ex.Id
+                         && a.Answer == q.Answer),
+                        WrongAnswer = examResults.Count(a => a.StudentId == studentId && a.ExamId == exj.ex.Id
+                         && a.Answer != q.Answer)
+                    });
+                return requiredData;
 
 
-        //}
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+        }
+
+        public bool SetExamResult(AttendExamViewModel viewModel)
+        {
+            try
+            {
+                foreach (var item in viewModel.QnAsList)
+                {
+                    ExamResults result = new ExamResults();
+                    result.StudentId = viewModel.StudentId;
+                    result.ExamId = item.ExamsId;
+                    result.QnAsId = item.Id;
+                    result.Answer = item.SelectedAnswer;
+                    _unitOfWork.GenericRepository<ExamResults>().Add(result);
+                    _unitOfWork.Save();
+                    return true;
+
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            return false;
+
+
+        }
 
         public bool SetGroupIdToStudent(GroupStudentViewModel viewModel)
         {
@@ -139,79 +139,79 @@ namespace CleanStudentManagement.BLL.Services
             }
         }
 
-        //public PagedResult<StudentViewModel> GetAllStudents(int pageNumber, int pageSize)
-        //{
-        //    try
-        //    {
-        //        int excludeRecords = (pageSize * pageNumber) - pageSize;
-        //        List<StudentViewModel> studentViewModel = new List<StudentViewModel>();
+        public PagedResult<StudentViewModel> GetAllStudents(int pageNumber, int pageSize)
+        {
+            try
+            {
+                int excludeRecords = (pageSize * pageNumber) - pageSize;
+                List<StudentViewModel> studentViewModel = new List<StudentViewModel>();
 
-        //        var studentList = _unitOfWork.GenericRepository<Student>()
-        //            .GetAll()
-        //            .Skip(excludeRecords).Take(pageSize).ToList();
+                var studentList = _unitOfWork.GenericRepository<Student>()
+                    .GetAll()
+                    .Skip(excludeRecords).Take(pageSize).ToList();
 
-        //        studentViewModel = ConvertToStudentVM(studentList);
-        //        var result = new PagedResult<StudentViewModel>
-        //        {
-        //            Data = studentViewModel,
-        //            TotalItems = _unitOfWork.GenericRepository<Student>()
-        //            .GetAll().Count(),
-        //            PageNumber = pageNumber,
-        //            PageSize = pageSize
-        //        };
-        //        return result;
+                studentViewModel = ConvertToStudentVM(studentList);
+                var result = new PagedResult<StudentViewModel>
+                {
+                    Data = studentViewModel,
+                    TotalItems = _unitOfWork.GenericRepository<Student>()
+                    .GetAll().Count(),
+                    PageNumber = pageNumber,
+                    PageSize = pageSize
+                };
+                return result;
 
-        //    }
-        //    catch (Exception)
-        //    {
+            }
+            catch (Exception)
+            {
 
-        //        throw;
-        //    }
+                throw;
+            }
 
-        //}
-        //private List<StudentViewModel> ConvertToStudentVM(List<Student> studentList)
-        //{
-        //    return studentList.Select(x => new StudentViewModel(x)).ToList();
-        //}
+        }
+        private List<StudentViewModel> ConvertToStudentVM(List<Student> studentList)
+        {
+            return studentList.Select(x => new StudentViewModel(x)).ToList();
+        }
 
         private List<StudentsViewModel> ListInfo(List<Student> studentList)
         {
             return studentList.Select(x => new StudentsViewModel(x)).ToList();
         }
 
-        //public StudentProfileViewModel GetStudentById(int studentId)
-        //{
-        //    var student = _unitOfWork.GenericRepository<Student>().GetById(studentId);
-        //    var studentProfile = new StudentProfileViewModel(student);
-        //    return studentProfile;
-        //}
+        public StudentProfileViewModel GetStudentById(int studentId)
+        {
+            var student = _unitOfWork.GenericRepository<Student>().GetById(studentId);
+            var studentProfile = new StudentProfileViewModel(student);
+            return studentProfile;
+        }
 
-        //public void UpdateProfile(StudentProfileViewModel studentProfile)
-        //{
-        //    try
-        //    {
-        //        var student = _unitOfWork.GenericRepository<Student>().GetById(studentProfile.Id);
-        //        if (student != null)
-        //        {
-        //            student.Name = studentProfile.Name;
-        //            student.Contact = studentProfile.Contact;
-        //            student.ProfilePicture = studentProfile.ProfilePicture != null ? studentProfile.ProfilePicture : student.ProfilePicture;
-        //            student.CVFileName = studentProfile.CVFileName != null ? studentProfile.CVFileName : student.CVFileName;
+        public void UpdateProfile(StudentProfileViewModel studentProfile)
+        {
+            try
+            {
+                var student = _unitOfWork.GenericRepository<Student>().GetById(studentProfile.Id);
+                if (student != null)
+                {
+                    student.Name = studentProfile.Name;
+                    student.Contact = studentProfile.Contact;
+                    student.ProfilePicture = studentProfile.ProfilePicture != null ? studentProfile.ProfilePicture : student.ProfilePicture;
+                    student.CVFileName = studentProfile.CVFileName != null ? studentProfile.CVFileName : student.CVFileName;
 
-        //            _unitOfWork.GenericRepository<Student>().Update(student);
-        //            _unitOfWork.Save();
+                    _unitOfWork.GenericRepository<Student>().Update(student);
+                    _unitOfWork.Save();
 
 
-        //        }
+                }
 
-        //    }
-        //    catch (Exception)
-        //    {
+            }
+            catch (Exception)
+            {
 
-        //        throw;
-        //    }
+                throw;
+            }
 
-        //}
+        }
     }
 }
 

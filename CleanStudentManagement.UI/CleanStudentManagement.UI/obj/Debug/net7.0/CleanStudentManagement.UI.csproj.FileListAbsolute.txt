@@ -8,6 +8,8 @@
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/CleanStudentManagement.UI.pdb
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/Azure.Core.dll
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/Azure.Identity.dll
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/cloudscribe.Pagination.Models.dll
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/cloudscribe.Web.Pagination.dll
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/Humanizer.dll
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/Microsoft.AspNetCore.Razor.Language.dll
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
@@ -33,7 +35,10 @@
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Sqlite.dll
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Binder.dll
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/Microsoft.Extensions.Hosting.dll
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/Microsoft.Identity.Client.dll
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
@@ -266,6 +271,7 @@
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/obj/Debug/net7.0/CleanStudentManagement.UI.AssemblyInfoInputs.cache
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/obj/Debug/net7.0/CleanStudentManagement.UI.AssemblyInfo.cs
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/obj/Debug/net7.0/CleanStudentManagement.UI.csproj.CoreCompileInputs.cache
+/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/obj/Debug/net7.0/CleanStudentManagement.UI.MvcApplicationPartsAssemblyInfo.cs
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/obj/Debug/net7.0/CleanStudentManagement.UI.MvcApplicationPartsAssemblyInfo.cache
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/obj/Debug/net7.0/CleanStudentManagement.UI.RazorAssemblyInfo.cache
 /Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/obj/Debug/net7.0/CleanStudentManagement.UI.RazorAssemblyInfo.cs

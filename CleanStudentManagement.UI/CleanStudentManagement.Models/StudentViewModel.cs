@@ -3,27 +3,22 @@ using CleanStudentManagement.Data.Entities;
 
 namespace CleanStudentManagement.Models
 {
-    public class StudentsViewModel
+    public class StudentViewModel
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
+        public int StudentId { get; set; }
+        public string StudentName { get; set; }
+        public string UserName { get; set; }
+        public string? Contact { get; set; }
 
-        public StudentsViewModel(Student student)
+        public StudentViewModel(Student student)
         {
-            Id = student.Id;
-            Name = student.Name;
+            StudentId = student.Id;
+            StudentName = student.Name;
+            UserName = student.UserName;
+            Contact = student.Contact;
 
         }
 
-
-
     }
-    public class CheckBoxTable
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public bool IsChecked { get; set; }
-    }
-
 }
 

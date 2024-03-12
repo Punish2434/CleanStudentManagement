@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
+      "Id": "/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/wwwroot/css/vapor.css",
+      "PackagePath": "staticwebassets/css/vapor.css"
+    },
+    {
       "Id": "/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },

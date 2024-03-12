@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using CleanStudentManagement.BLL.Services;
 using CleanStudentManagement.Models;
+using CleanStudentManagement.Data;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -16,11 +17,14 @@ namespace CleanStudentManagement.UI.Controllers
 {
     public class AccountsController : Controller
     {
+
+        private readonly ApplicationDbContext _context;
         private IAccountService _accountService;
 
-        public AccountsController(IAccountService accountService)
+        public AccountsController(IAccountService accountService, ApplicationDbContext context)
         {
             _accountService = accountService;
+            _context = context;
         }
         public IActionResult Logout()
         {
@@ -38,24 +42,29 @@ namespace CleanStudentManagement.UI.Controllers
             return View();
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
-            LoginViewModel vm = _accountService.Login(model);
-            if (vm != null)
+            if (ModelState.IsValid)
             {
-                string sessionObj = JsonSerializer.Serialize(vm);
-                HttpContext.Session.SetString("loginDetails", sessionObj); //Session save
 
-                var claims = new List<Claim>()
+                LoginViewModel vm = _accountService.Login(model);
+                if (vm != null)
+                {
+                    string sessionObj = JsonSerializer.Serialize(vm);
+                    HttpContext.Session.SetString("loginDetails", sessionObj); //Session save
+
+                    var claims = new List<Claim>()
                 {
                     new Claim(ClaimTypes.Name,model.UserName)
                 };
-                var claimsIdentity = new ClaimsIdentity(claims,
-                    CookieAuthenticationDefaults.AuthenticationScheme);
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme
-                    , new ClaimsPrincipal(claimsIdentity));
+                    var claimsIdentity = new ClaimsIdentity(claims,
+                        CookieAuthenticationDefaults.AuthenticationScheme);
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme
+                        , new ClaimsPrincipal(claimsIdentity));
 
-                return RedirectToUser(vm);
+                    return RedirectToUser(vm);
+                }
             }
 
             return View(model);

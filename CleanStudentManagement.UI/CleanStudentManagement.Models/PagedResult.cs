@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace CleanStudentManagement.Models
 {
     public class PagedResult<T> where T : class

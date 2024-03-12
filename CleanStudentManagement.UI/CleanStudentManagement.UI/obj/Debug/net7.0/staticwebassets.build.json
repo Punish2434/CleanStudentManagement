@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t8QujB6yzV/MnjRXW0zTxXi9x6LCjthZqrCfCFFmxwk=",
+  "Hash": "lZIyn6lk5B5pNJQHnQimUy7q4CCybzCTAblVxk9yr8U=",
   "Source": "CleanStudentManagement.UI",
   "BasePath": "_content/CleanStudentManagement.UI",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/wwwroot/css/vapor.css",
+      "SourceId": "CleanStudentManagement.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/wwwroot/",
+      "BasePath": "_content/CleanStudentManagement.UI",
+      "RelativePath": "css/vapor.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/vapor.css"
     },
     {
       "Identity": "/Users/punishpratap/TFS/CleanStudentManagement/CleanStudentManagement.UI/CleanStudentManagement.UI/wwwroot/favicon.ico",
